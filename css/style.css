@@ -159,3 +159,66 @@ img {
   background-color: var(--header-footer-btn-color);
   opacity: 0.6;
 }
+
+/* HERO */
+
+.site-hero {
+  padding-top: 157px;
+  padding-bottom: 180px;
+  background: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 710px 70px;
+}
+
+
+.site-hero__inner {
+  margin-right: auto;
+  width: 540px;
+}
+
+.site-hero__heading {
+  margin: 0 0 24px 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+}
+
+.site-hero__content {
+  margin: 0 0 32px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.5;
+}
+
+.site-hero-links {
+  display: flex;
+  align-items: center;
+}
+
+.site-hero__link {
+  margin-right: 16px;
+  padding: 10px 24px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #fff;
+  background-color: var(--main-btn-color);
+}
+
+.fire-fox-btn {
+  color: var(--font-color);
+  background-color: #F7F7F7;
+  opacity: 0.75;
+}
+
+/* FEATURES */
+.features-section {
+  padding-top: 80px;
+}
