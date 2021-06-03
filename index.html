@@ -11,19 +11,23 @@
 <body>
 
   <header class="site-header">
+    <h1 class="visually-hidden">A simple bookmark manager
+    </h1>
     <div class="site-header__inner container">
       
-      <a class="header-logo-link" href="index.html"><img class="header-logo" src="img/icon/site-logo.svg" alt="site-logo"></a>
+      <a class="site-header__logo--link header-logo" href="index.html">
+        <img class="header-logo__img" src="img/icon/site-logo.svg" alt="site-logo">
+      </a>
 
       <nav class="header-nav">
-        <ul class="nav-list">
-          <li class="nav-list-item"><a class="list-item-link" href="index.html">Features</a></li>
-          <li class="nav-list-item"><a class="list-item-link" href="pricing.html">Pricing</a></li>
-          <li class="nav-list-item"><a class="list-item-link" href="pricing.html">Contact</a></li>
+        <ul class="header-nav__list">
+          <li class="header-nav__item"><a class="header-nav__link" href="index.html">Features</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="pricing.html">Pricing</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="pricing.html">Contact</a></li>
         </ul>
       </nav>
 
-    <button class="header-footer-btn" type="button">Login</button>  
+    <button class="button header--button" type="button">Login</button>  
     </div>
     
   </header>
@@ -34,27 +38,27 @@
       <section class="site-hero">
         <div class="container">
           <div class="site-hero__inner">
-            <h1 class="site-hero__heading">A simple bookmark manager
-            </h1>
+            <h2 class="site-hero__heading">A simple bookmark manager
+            </h2>
             <p class="site-hero__content main-text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-            <div class="site-hero-links">
-              <a class="site-hero__link" href="https://chrome.com" target="_blank">Get it on Chrome</a>
-              <a class="site-hero__link fire-fox-btn" href="https://firefox.com" target="_blank">Get it on Firefox</a>
+            <div class="site-hero-links hero--links">
+              <a class="button blue__button hero--link" href="https://chrome.com" target="_blank">Get it on Chrome</a>
+              <a class="button hero--link fire-fox--button" href="https://firefox.com" target="_blank">Get it on Firefox</a>
             </div>
         </div>
         </div>
       </section>
 
-      <section class="features-section">
+      <!-- <section class="features-section">
           <div class="features-title container">
-            <h2 class="main-heading">Features</h2>
+            <h2 class="main--heading">Features</h2>
             <p class="features-title__text main-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
           </div>
           <div class="container">
             <ul class="features-navigation-list">
-              <li class="features-navigation-item features-navigation__btn-active"><button class="features-navigation__btn ">Simple Bookmarking</button></li>
-              <li class="features-navigation-item "><button class="features-navigation__btn">Speedy Searching</button></li>
-              <li class="features-navigation-item "><button class="features-navigation__btn">Easy Sharing</button></li>
+              <li class="features-navigation-item features-navigation__btn-active"><button class="features-navigation__btn" type="button">Simple Bookmarking</button></li>
+              <li class="features-navigation-item "><button class="features-navigation__btn" type="button">Speedy Searching</button></li>
+              <li class="features-navigation-item "><button class="features-navigation__btn" type="button">Easy Sharing</button></li>
             </ul>
           </div>
           
@@ -62,45 +66,45 @@
           <div class="simple-bookmarking-content">
             
             <div class="container">
-              <div class="simple-bookmarking-content__inner">
-                <h3 class="main-heading">Bookmark in one click</h3>
-                <p class="simple-bookmarking-text main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <a class="site-button" href="moreinf.html" target="_blank">More info</a>
+              <div class="simple-bookmarking-content__inner bookmarking-content">
+                <h3 class="main--heading bookmarking-content__heading">Bookmark in one click</h3>
+                <p class="bookmarking-content__text main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                <a class="button simple--bookmarking--button blue__button" href="moreinf.html" target="_blank">More info</a>
               </div>
             </div>
             
           </div>
-      </section>
+      </section> -->
 
       <article class="extentions-section">
         <div class="container">
-          <div class="extentions-section__inner">
+          <div class="extentions-section__inner extentions-wrapper">
 
-            <div class="extentions-section__title">
-              <h2 class="main-heading">Download the extension</h2>
-              <p class="extentions-section-text main-text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+            <div class="extentions-wrapper__title extentions-title">
+              <h2 class="extentions-title__heading main--heading">Download the extension</h2>
+              <p class="extentions-title__content main-text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
             </div>
     
-            <ul class="extentions-section-list">
+            <ul class="extentions-section__list">
     
-              <li class="extentions-section-item">
-                <h3 class="extentions-section-item__heading">Add to Chrome</h3>
-                <p class="extentions-section-item__content">Minimum version 62</p>
-                <a href="#" class="extentions-section-item__link site-button">Add & Install Extension</a>
+              <li class="extentions-sections__item extentions-item">
+                <h3 class="extentions-item__heading">Add to Chrome</h3>
+                <p class="extentions-item__content">Minimum version 62</p>
+                <a href="https://firefox.com" target="_blank" class="button extentions--button">Add & Install Extension</a>
               </li>
     
-              <li class="extentions-section-item">
-                <h3 class="extentions-section-item__heading">Add to Firefox</h3>
-                <p class="extentions-section-item__content">Minimum version 55</p>
-                <a href="#" class="extentions-section-item__link site-button">Add & Install Extension</a>
+              <li class="extentions-sections__item extentions-item">
+                <h3 class="extentions-item__heading">Add to Firefox</h3>
+                <p class="extentions-item__content">Minimum version 55</p>
+                <a href="https://firefox.com" target="_blank" class="button extentions--button">Add & Install Extension</a>
               </li>
     
-              <li class="extentions-section-item">
-                <h3 class="extentions-section-item__heading">Add to Opera</h3>
-                <p class="extentions-section-item__content">Minimum version 46</p>
-                <a href="#" class="extentions-section-item__link site-button">Add & Install Extension</a>
+              <li class="extentions-sections__item extentions-item">
+                <h3 class="extentions-item__heading">Add to Opera</h3>
+                <p class="extentions-item__content">Minimum version 46</p>
+                <a href="https://opera.com" target="_blank" class="button extentions--button">Add & Install Extension</a>
               </li>
-    
+
             </ul>
   
           </div>
