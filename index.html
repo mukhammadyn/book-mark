@@ -6,35 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookmark</title>
   <link rel="stylesheet" href="css/normalize-mini.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-mini.css">
 </head>
 <body>
 
   <header class="site-header">
     <h1 class="visually-hidden">A simple bookmark manager
     </h1>
-    <div class="site-header__inner container">
-      
-      <a class="site-header__logo--link header-logo" href="index.html">
-        <img class="header-logo__img" src="img/icon/site-logo.svg" alt="site-logo">
-      </a>
-
-      <nav class="header-nav">
+    <div class="site-header__wrapper container">
+      <nav class="site-header__nav">
+        <a class="site-header__logo--link header-logo" href="index.html">
+          <img class="header-logo__img" src="img/icon/site-logo.svg" alt="site-logo" width="148" height="25">
+        </a>
         <ul class="header-nav__list">
           <li class="header-nav__item"><a class="header-nav__link" href="index.html">Features</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="pricing.html">Pricing</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="pricing.html">Contact</a></li>
         </ul>
+        <a href="#" class="button header--button">Login</a> 
       </nav>
 
-    <button class="button header--button" type="button">Login</button>  
+     
     </div>
     
   </header>
   
   <main class="site-main">
     <section class="site-main-wrapper">
-      
+      <h2 class="visually-hidden">Bookmark manager will help you</h2>
       <section class="site-hero">
         <div class="container">
           <div class="site-hero__inner">
@@ -49,16 +48,19 @@
         </div>
       </section>
 
-      <!-- <section class="features-section">
+      <section class="features-section">
           <div class="features-title container">
             <h2 class="main--heading">Features</h2>
             <p class="features-title__text main-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
           </div>
           <div class="container">
             <ul class="features-navigation-list">
-              <li class="features-navigation-item features-navigation__btn-active"><button class="features-navigation__btn" type="button">Simple Bookmarking</button></li>
-              <li class="features-navigation-item "><button class="features-navigation__btn" type="button">Speedy Searching</button></li>
-              <li class="features-navigation-item "><button class="features-navigation__btn" type="button">Easy Sharing</button></li>
+              <li class="features-navigation-item ">
+                <button class="features-navigation__btn" type="button">Simple Bookmarking</button></li>
+              <li class="features-navigation-item">
+                <button class="features-navigation__btn" type="button">Speedy Searching</button></li>
+              <li class="features-navigation-item">
+                <button class="features-navigation__btn" type="button">Easy Sharing</button></li>
             </ul>
           </div>
           
@@ -74,7 +76,7 @@
             </div>
             
           </div>
-      </section> -->
+      </section>
 
       <article class="extentions-section">
         <div class="container">
@@ -110,21 +112,127 @@
           </div>
         </div>
         
-        
-        
       </article>
+
+      <section class="faq-section container">
+        <header class="faq-section__title extentions-title">
+          <h2 class="faq-section__heading main--heading">Frequently Asked Questions</h2>
+          <p class="faq-section__desc main-text">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+        </header>
+
+        <ul class="faq-section__list">
+          <li class="faq-section__item faq--item">
+            <header class="faq--item__header">
+              <h3 class="faq--item__heading">What is Bookmark?</h3>
+              <button class="faq--item__button" type="button" aria-label="Togle answer"></button>
+            </header>
+            <div class="faq--item__drop">
+              <p class="faq--item__drop--text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+          <li class="faq-section__item faq--item">
+            <header class="faq--item__header">
+              <h3 class="faq--item__heading">How can I request a new browser?</h3>
+              <button class="faq--item__button" type="button"></button>
+            </header>
+            <div class="faq--item__drop">
+              <p class="faq--item__drop--text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+          <li class="faq-section__item faq--item">
+            <header class="faq--item__header">
+              <h3 class="faq--item__heading">Is there a mobile app?</h3>
+              <button class="faq--item__button" type="button"></button>
+            </header>
+            <div class="faq--item__drop">
+              <p class="faq--item__drop--text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+          <li class="faq-section__item faq--item">
+            <header class="faq--item__header">
+              <h3 class="faq--item__heading">What about other Chromium browsers?</h3>
+              <button class="faq--item__button" type="button"></button>
+            </header>
+            <div class="faq--item__drop">
+              <p class="faq--item__drop--text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="faq-button">
+          <a class="button simple--bookmarking--button blue__button" href="moreinf.html" target="_blank">More info</a>
+        </div>
+        
+      </section>
 
 
     </section>
   </main>
   
   <footer class="site-footer">
-  
-    <section class="site-footer-wrapper container">
-        
-    </section>
-  
+
+    <div class="site-footer__inner">
+      <section class="site-footer__top">
+        <div class="site-footer__container container">
+            <div class="site-footer__title">
+              <p class="site-footer__joined-list">35,000+ ALREADY JOINED</p>
+              <h2 class="site-footer__stay-up">Stay up-to-date with what
+              we’re doing</h2>
+            </div>
+            <form action="https://echo.htmlacademy.ru" method="POST" class="site-footer__form">
+              <div class="site-footer__email--wrapper">
+                <input class="site-footer__email" name="user_email" type="email" id="input-email" placeholder="Enter your email address" aria-label="Your email" required>
+                <div class="site-footer__email--error"><span>Whoops, make sure it’s an email</span></div>
+              </div>
+                
+                  
+                <label class="visually-hidden" for="sub-btn">Submit button</label>
+                <button class="button simple--bookmarking--button site-footer__submit" type="submit" id="sub-btn">Contact us</button>
+
+            </form>
+        </div>
+      </section>
+      <h2 class="visually-hidden">We are the best</h2>
+      <section class="site-footer__bottom">
+        <div class="site-footer__bottom--container container">
+          <a class="site-footer__header header-logo" href="index.html">
+            <img class="site-footer__logo header-logo__img" src="img/icon/site-logo-footer.svg" alt="site-logo" width="148" height="25">
+          </a>
+
+          <ul class="site-footer__nav footer-nav__list">
+            <li class="footer-nav__item"><a class="header-nav__link footer-nav__link" href="index.html">Features</a></li>
+            <li class="footer-nav__item"><a class="header-nav__link footer-nav__link" href="pricing.html">Pricing</a></li>
+            <li class="footer-nav__item"><a class="header-nav__link footer-nav__link" href="pricing.html">Contact</a></li>
+          </ul>
+
+
+          <div class="site-footer__social--img">
+            <a href="https://www.facebook.com" class="site-footer__social--link" target="_blank">
+              <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="site-footer__social--svg" id="facebook" fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z" fill="white"/>
+                </svg>
+            </a>
+
+            <a href="https://www.twitter.com" class="site-footer__social--link social--link__twitter" target="_blank">
+              <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="site-footer__social--svg" id="twitter" fill-rule="evenodd" clip-rule="evenodd" d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z" fill="white"/>
+                </svg>
+            </a>
+            
+          </div>
+          
+
+        </div>
+      </section>
+      
+    </div>
+
   </footer>
+       
   
+  <script src="/script/main.js"></script>
 </body>
 </html>
