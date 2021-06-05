@@ -217,6 +217,7 @@ img {
   margin-right: 16px;
   padding: 10px 24px;
   text-decoration: none;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
 }
 
 .blue__button {
@@ -530,6 +531,7 @@ img {
 .faq--item__button {
   margin-right: 20px;
   padding: 0;
+  outline: transparent;
   flex-shrink: 0;
   width: 20px;
   height: 15px;
@@ -609,7 +611,7 @@ img {
 }
 
 .site-footer__stay-up {
-  margin: 0 0 36px;
+  font-weight: 500;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.1px;
