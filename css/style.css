@@ -487,6 +487,11 @@ img {
   margin: 0 auto;
 }
 
+.faq-section__desc {
+  margin: 0;
+  margin-bottom: 56px;
+}
+
 .faq-section__list {
   border-top: 1px solid rgba(36, 42, 69, 0.5);
   margin: 0;
