@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style-mini.css">
 </head>
 <body>
-
+    
   <header class="site-header">
     <h1 class="visually-hidden">A simple bookmark manager
     </h1>
@@ -48,35 +48,69 @@
         </div>
       </section>
 
-      <section class="features-section">
+        <section class="features-section">
           <div class="features-title container">
             <h2 class="main--heading">Features</h2>
             <p class="features-title__text main-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
           </div>
           <div class="container">
             <ul class="features-navigation-list">
-              <li class="features-navigation-item ">
-                <button class="features-navigation__btn" type="button">Simple Bookmarking</button></li>
+              <li class="features-navigation-item features-navigation__btn-active">
+                <a class="features-navigation__btn" href="#section-1" type="button">Simple Bookmarking</a></li>
               <li class="features-navigation-item">
-                <button class="features-navigation__btn" type="button">Speedy Searching</button></li>
+                <a class="features-navigation__btn" href="#section-2" type="button">Speedy Searching</a></li>
               <li class="features-navigation-item">
-                <button class="features-navigation__btn" type="button">Easy Sharing</button></li>
+                <a class="features-navigation__btn" href="#section-3" type="button">Easy Sharing</a></li>
             </ul>
           </div>
           
+          <ul class="features__list">
+            <li id="section-1" class="features__item feature--item feature--item__active">
+              <div class="feature--item__container container">
 
-          <div class="simple-bookmarking-content">
-            
-            <div class="container">
-              <div class="simple-bookmarking-content__inner bookmarking-content">
-                <h3 class="main--heading bookmarking-content__heading">Bookmark in one click</h3>
-                <p class="bookmarking-content__text main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <a class="button simple--bookmarking--button blue__button" href="moreinf.html" target="_blank">More info</a>
+                <img class="feature--item__img" src="/img/section1.png" alt="" aria-hidden="true" srcset="/img/section1.png 1x, /img/section1@2x.png 2x" width="536" height="346">
+              
+                <div class="feature--item__content">
+                  <h3 class="feature--item__heading main--heading">Bookmark in one click</h3>
+                  <p class="feature--item__text main-text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                  <a href="#section1" class="feature--item__link simple--bookmarking--button blue__button button">More info</a>
+                </div>
+
               </div>
-            </div>
-            
-          </div>
-      </section>
+            </li>
+              
+              
+            <li id="section-2" class="features__item feature--item">
+              <div class="feature--item__container container">
+
+                <img class="feature--item__img img--first-section" src="/img/section2.png" alt="" aria-hidden="true" srcset="/img/section2.png 1x, /img/section2@2x.png 2x" width="469" height="393">
+              
+                <div class="feature--item__content">
+                  <h3 class="feature--item__heading main--heading">Intelligent search</h3>
+                  <p class="feature--item__text main-text">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                  <a href="#section2" class="feature--item__link simple--bookmarking--button blue__button button">More info</a>
+                </div>
+              </div>
+            </li>
+              
+
+              
+              
+            <li id="section-3" class="features__item feature--item">
+              <div class="feature--item__container container">
+
+                <img class="feature--item__img" src="/img/section3.png" alt="" aria-hidden="true" srcset="/img/section3.png 1x, /img/section3@2x.png 2x" width="440" height="380">
+              
+                <div class="feature--item__content">
+                  <h3 class="feature--item__heading main--heading">Share your bookmarks</h3>
+                  <p class="feature--item__text main-text">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                  <a href="#section3" class="feature--item__link simple--bookmarking--button blue__button button">More info</a>
+                </div>
+
+              </div>
+            </li>
+              
+          </ul>
 
       <article class="extentions-section">
         <div class="container">

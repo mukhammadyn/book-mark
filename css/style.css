@@ -301,6 +301,8 @@ img {
   cursor: pointer;
   transition: opacity 0.3s ease,
   color 0.3s ease;
+  text-decoration: none;
+  color: var(--font-color);
 }
 
 .features-navigation__btn:hover {
@@ -323,29 +325,48 @@ img {
   opacity: 1;
 }
 
-.simple-bookmarking-content {
-  padding-top: 129px;
-  padding-bottom: 145px;
-  background-image: url(../img/site-bg-2.png);
-  background-repeat: no-repeat;
-  background-position: left calc(50% - 547px) top calc(73px);
-}
-
-.simple-bookmarking-content__inner {
-  margin-left: auto;
+.features__list {
+  margin: 0;
   padding: 0;
-  width: 445px;
+  list-style: none;
 }
 
-.bookmarking-content__text {
-  margin: 0 0 32px 0;
+.features__item {
+  padding: 73px 0 90px 0;
+  background-image: url(../img/sections-pil.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 700px) bottom;
+}
+
+.feature--item {
+  height: 500px;
+  display: none;
+} 
+
+.feature--item__active {
+  display: block;
+}
+
+.feature--item__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.feature--item__content {
+  margin-top: 57px;
+  max-width: 445px;
+}
+
+.feature--item__text {
+  margin: 0 0 32px;
   padding: 0;
 }
 
 .simple--bookmarking--button {
   padding: 10px 24px;
   text-transform: capitalize;
-}
+} 
 
 /* extentions */
 .extentions-section {
