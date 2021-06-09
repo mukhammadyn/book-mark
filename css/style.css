@@ -339,7 +339,7 @@ img {
 }
 
 .feature--item {
-  height: 500px;
+  min-height: 500px;
   display: none;
 } 
 
